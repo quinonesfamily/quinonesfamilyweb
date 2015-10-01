@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Quiñones Family Tree</title>
+	<meta  charset="UTF-8"> 
+	<meta name="author" content="Geraldine Alcoser">
+	<meta name="description" content="Quiñones Family Tree">
+	<meta name="keywords" content="Quiñones, family tree, pedigree chart, genealogy, ancestry">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.1">
+	<meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="cleartype" content="on">	
+	<link rel="stylesheet" href="./css/familywebstyle.css"> 
+</head>
+
+
+
+<body>
+
+	<!-- HEADER -->
+	<nav>  
+        <ul id='navBar'>  
+			<li><strong><a href="quiñonesmain.html">QUIÑONES FAMILY WEBSITE</a><strong> |</li> 
+			<li><a href="quiñonesmain.html#about">About</a> |</li>  
+			<li><a href="indexprofile.html">Index</a> |</li>  
+			<li><a href="contactform.html">Contact Us</a></li>  
+		</ul>
+    </nav>  
+
+	
+	<!--Form Content--> 
+	<div class="content">
+	<h2>Welcome!</h2>
+	<p>Due to security reasons, you are required to enter the following to access this website:</p><br><br>
+	</div>
+
+	<form name="myForm" action="demo_form.asp onsubmit="return validateForm()" method="post">
+		Username: <input type="text" name="fname" required><br><br>
+		Email: <input type="text" id="email" name="femail" required><br><br>
+		Password: <input type="password" id="pwd" required><br><br>
+		<input type="checkbox" id="check1">Remember me?
+	<input type="submit" value="Submit" onsubmit="myFunction()">
+	</form>
+
+	
+	<!--FOOTER-->
+	<footer>©2015 <a href="quiñonesmain.html">Quiñones Family Website</a> |
+		Web Developer : LIS 161 GHA |
+		<a href="quiñonesmain.html">Pedigree Chart </a>|
+		<a href="indexprofile.html">Index</a> | 
+		<a href="quiñonesmain.html#about">About</a> |
+		<a href="contactform.html">Contact Us</a>		
+    </footer>
+	
+
+	<!--JS script for form-->
+	<script>
+		function validateForm() {
+		var x = document.forms["myForm"]["fname"].value;
+			if (x == null || x == "") {
+			alert("This must be filled out");
+			return false;
+			}
+		}
+	</script>
+	
+</body>
+</html>

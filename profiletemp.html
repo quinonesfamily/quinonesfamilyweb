@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Quiñones Family Website</title>
+	<meta  charset="UTF-8"> 
+	<meta name="author" content="Geraldine Alcoser">
+	<meta name="description" content="Quiñones Family Tree">
+	<meta name="keywords" content="Quiñones, family tree, pedigree chart, genealogy, ancestry">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.1">
+	<meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="cleartype" content="on">	
+	<link rel="stylesheet" href="./css/familywebstyle.css">	
+</head>	
+
+	
+<body>
+	<!-- HEADER -->
+	<nav>  
+        <ul id='navBar'>  
+			<li><strong><a href="quiñonesmain.html">QUIÑONES FAMILY WEBSITE</a><strong></li>
+			<li><a href="quiñonesmain.html#about">About</a> |</li>  
+			<li><a href="indexprofile.html">Index</a> |</li>  
+			<li><a href="contactform.html">Contact Us</a></li>  
+		</ul>
+    </nav>  
+	
+	
+	
+	<!-- PROFILE -->
+	<div class="profilepic">
+		<img src="https://familysearch.org/pal:/MM9.3.1/TH-1-15548-19032-36/dist.jpg" alt="profilepicture" class="pic">
+		<!--image accessible only if logged-in at the familysearch.org-->
+	</div>
+	
+	
+	<!--Fill DATA HERE-->
+	<div class="infoprofile">
+		<h3>Last Name, Given Name First Name</h3>
+		<h4>Gender :</strong> Female <br>
+		<strong>Date of Birth :</strong> Sept. 17
+			<sup><a href="#extlink" id="s1">1</a></sup><br>
+		<strong>Place of Birth : </strong> <br>
+		<strong>Name of Spouse/s :</strong> <br>
+		<strong>Date of Marriage :</strong> <br>
+		<strong>Place of Marriage :</strong> <br>
+		<strong>Date of Annulment or Divorce :</strong> <br>
+		<strong>Place of Annulment or Divorce :</strong> <br>
+		<strong>Date of Death :</strong> <br>
+		<strong>Place of Death :</strong> <br>
+		<strong>Cause of Death :</strong> <br>
+		<strong>Sources :</strong> 
+			<sup><a href="#s1">^ </a></sup><a href="#" class="ext_ico" rel="help" id="extlink">Source One </a><br>	
+	</div>
+	
+		
+	<!-- FOOTER -->
+	<footer>©2015 <a href="quiñonesmain.html">Quiñones Family Website</a> |		
+		Web Developer : LIS 161 GHA |
+		<a href="quiñonesmain.html">Pedigree Chart </a>|
+		<a href="indexprofile.html">Index</a> | 
+		<a href="quiñonesmain.html#about">About</a> |
+		<a href="contactform.html">Contact Us</a>	
+    </footer>
+	
+
+	
+	<!-- JS/jQUERY for image zooming-->	
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="./js/jquery.panzoom.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+			jQuery('img').load(function() {
+				jQuery(".pic").jspanzoom({scrollZoom : true, responsive:true});
+		});
+		});
+	</script>	
+	
+</body>
+
+</html>

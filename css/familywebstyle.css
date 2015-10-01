@@ -1,0 +1,229 @@
+/*
+familywebstyle.css
+css for all quiñonesmain.html, profiletemp.html, indexprofile.html, form.html, contactform.html
+
+basically css for all the webpages
+
+©2015 Geraldine H. Alcoser
+
+*/
+
+
+html, body {
+  min-height: 100%;
+  width:100%
+  -webkit-overflow-scrolling:touch;
+  overflow:auto;
+  
+}
+
+body {
+	position: auto;
+    top:0px; 
+	bottom:0;
+    left:0; 
+	right:0;
+	background: #f0f0f0; 
+	height:100%;
+	width:100%;
+	overflow:auto;
+    
+}
+
+/*HEADER*/
+nav {
+	background: #222;  
+	color: #fff;
+	list-style: none;
+	font-size: 1.2em;
+	padding: 1px;
+	margin:0px;
+	position:relative;
+	font-family: 14px Lucida Sans, Arial,sans-serif;
+	top: 0px
+		
+}
+
+#navBar li, #footer-right li{
+	display:inline;
+	text-align:left;
+}
+
+#navBar li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 1px;
+	
+}
+#navBar li a:hover, footer a:hover, footer p:hover, #link a:hover, li a:hover {
+	
+	color: #32a4e7;
+	text-decoration: none;
+	padding: 5px;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+ 	position:fixed; 	
+	background: #222;  
+	color: #fff;
+	list-style: none;
+	font-size: 1.2em;
+	padding: 5px;	
+    box-sizing: border-box;
+	bottom:0;
+    width: 100%;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font: 12px Lucida Sans;
+	
+}
+
+footer a  {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer p {
+	float: right;
+	white-space: nowrap;
+	bottom:2px;
+	font-size: 1.2em;	
+	vertical-align: middle;
+	margin:2px;
+}
+
+
+/*MAINPAGE-CHART*/
+.chartcontainer {
+	width:100%;
+	height: auto;
+	overflow: hidden;
+	position:relative;
+	border:1 px solid black;
+	display:block;
+	margin:auto;
+	box-sizing: border-box;
+	-webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+	float:none;
+	text-align:center;	
+}
+
+
+.pedchart {
+    text-align: center;  
+    margin: auto;
+    padding: 0;	 
+	display: block;
+	max-width: 100%;
+	max-height:100%;	
+	position:relative;
+}
+
+.about {
+	position: relative;
+    overflow: auto;
+	font: 100% Lucida Sans;
+	padding: 10px;
+    margin: 0 30px;
+	text-align: justify;
+	color: #2883B9;
+	letter-spacing: 0.5px;
+	line-height: 200%;
+}
+
+
+
+/*PROFILETEMP*/
+.profilepic {
+	float: right; 
+	width:300px; 
+	height:250px; 
+	border:none; 
+	margin-right: 5em; 
+	margin-bottom: 10 em;
+	margin-top: 2em;
+	background: #f0f0f0; 
+	overflow: hidden;
+	align:middle;
+}
+
+.profilepic img {
+	vertical-align:center;
+	background: #f0f0f0; 
+	overflow: hidden;
+	max-width: 100%; 
+	max-height: 100%;
+	height: inherit !important;
+	width: inherit !important;
+	align:middle;
+}
+
+.infoprofile {
+    position: absolute;
+    overflow: auto;
+	font: 100% Lucida Sans;
+	padding: 10px;
+    margin: 0 210px;
+	text-align: justify;
+	color: #2883B9;
+	letter-spacing: 0.5px;
+	line-height: 200%;
+}
+
+.infoprofile strong, h3 {
+	color: black;
+}
+
+a.ext_ico {
+	
+	text-decoration: none;
+	font: 10px Lucida Sans;
+	letter-spacing: 0.5px;	
+}
+
+a.ext_ico:after{ /*for external link icon just like in Wikipedia*/
+    content:" ";
+    display:inline-block;
+    width:20px;
+    height:20px;
+    vertical-align:bottom;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/4/44/External.png);
+    background-position:0px 0px 0px 0px;
+    background-repeat:no-repeat;
+	padding:0px;
+}
+
+
+sup a {
+	text-decoration: none;
+	letter-spacing: 0px;
+	font: 10px Lucida Sans;
+}
+
+
+
+/*INDEX*/
+ul {
+	list-style-type:none;
+}
+
+
+li a { 
+	text-decoration:none;
+	color: black;
+}
+
+
+#searchbox {
+	float:center;
+	padding:10px;
+}
+
+
+
